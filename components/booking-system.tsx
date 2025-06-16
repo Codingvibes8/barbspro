@@ -130,9 +130,9 @@ export function BookingSystem({ isOpen, onClose }: BookingSystemProps) {
         newErrors.email = "Please enter a valid email"
       }
       if (!bookingData.phone.trim()) {
-        newErrors.phone = "Phone number is required"
-      } else if (!/^$$?([0-9]{3})$$?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/.test(bookingData.phone)) {
-        newErrors.phone = "Please enter a valid phone number"
+        newErrors.phone = "Phone number is required";
+      } else if (!/^(\+\d{1,3}\s?)?(\(\d{3}\)|\d{3})[-.\s]?\d{3}[-.\s]?\d{4}$/.test(bookingData.phone.trim())) {
+        newErrors.phone = "Please enter a valid phone number";
       }
     }
 
