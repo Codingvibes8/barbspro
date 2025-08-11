@@ -39,10 +39,10 @@ export function Header() {
 
   const navItems = [
     { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "Pricing", href: "#pricing" },
-    { name: "Gallery", href: "#gallery" },
-    { name: "Contact", href: "#contact" },
+    { name: "Services", href: "/services" },
+    { name: "Pricing", href: "/pricing" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Contact", href: "/contact" },
   ]
 
   const handleNavClick = (href: string) => {
@@ -63,7 +63,7 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? "bg-black/95 backdrop-blur-sm shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-orange-600 backdrop-blur-sm shadow-lg" : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">

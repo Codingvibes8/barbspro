@@ -78,9 +78,9 @@ export function BookingSystem({ isOpen, onClose }: BookingSystemProps) {
   ]
 
   const barbers = [
-    { id: "marcus", name: "Marcus Johnson", specialty: "Master Barber", avatar: "/images/gallery-2.jpeg" },
-    { id: "alex", name: "Alex Rodriguez", specialty: "Modern Styles", avatar: "/images/gallery-1.jpeg" },
-    { id: "david", name: "David Chen", specialty: "Traditional Cuts", avatar: "/images/gallery-3.jpeg" },
+    { id: "marcus", name: "Marc Johnson", specialty: "Master Barber", avatar: "/images/gallery-2.jpeg" },
+    { id: "alex", name: "Alex Rodriz", specialty: "Modern Styles", avatar: "/images/gallery-1.jpeg" },
+    { id: "david", name: "David Jhen", specialty: "Traditional Cuts", avatar: "/images/gallery-3.jpeg" },
   ]
 
   const timeSlots = [
